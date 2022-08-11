@@ -1,3 +1,8 @@
+
+Piggyback is in early development and doesn't do anything just yet.  This 
+document describes what I'm currently thinking for this project.  Your
+comments are welcome.
+
 # Introduction
 
 Piggyback is a simple command-line backup and archival program with the 
