@@ -5,7 +5,7 @@ comments are welcome.
 
 # Introduction
 
-Piggyback is a simple command-line backup and archival program with the 
+Piggyback is a command-line backup and archival program with the 
 following features:
 
 - Uses an easy to understand repository format that can be examined with 
@@ -19,9 +19,11 @@ following features:
   from errors
 - Supports restoration of files using existing filesystem navigation methods
 
-Piggyback supports these features by keeping redundant copies of backed-up 
+The idea here is that you can back up your files up to multiple cheap and unreliable 
+sources (think USB drives, SD cards, phones) and not worry about losing your data. 
+Piggyback supports this by keeping redundant copies of backed-up 
 files within the repository and in repository mirrors. It reduces disk usage 
-withiin a repository or mirror by linking duplicate files together (with 
+within a repository or mirror by linking duplicate files together (with 
 symlinks if the target filesystem supports it, or via metadata if not) 
 once redundancy targets are met; multiple copies of the same data "piggyback" 
 off of one another.
